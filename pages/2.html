@@ -1,0 +1,66 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/2.css">
+    <link rel="shortcut icon" href="../assets/Icon.png">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="cabeçalho">
+        <img src="../assets/Cabeçalho.png" alt="Cabeçalho">
+    </div>
+    <div class="menu">
+        <button>☰</button>
+        <div class="dropdown">
+            <a href="../index.html">Login</a>
+            <a href="./1.html">Home</a>
+            <a href="./2.html">Cadastro</a>
+            <a href="./3.html">Contato</a>
+            <a href="./4.html">Sucesso</a>
+        </div>
+    </div>
+    <div class="formulário">
+        <form id="formulário" action="./4.html">
+            <label class="título" for="Nome">Nome Completo</label>
+            <br>
+            <br>
+            <input id="caixas" type="text" placeholder="Primeiro" required>
+            <input id="caixas" type="text" placeholder="Último Nome" required>
+            <br><br><br>
+            <label class="título" for="Gênero">Telefone</label>
+            <label class="título" id="input" for="E-mail">E-mail</label>
+            <br><br>
+            <input id="caixas" type="text" placeholder="+11 (11) 11111-1111" required>
+            <input id="caixas" type="text" placeholder="Digite seu e-mail" required>
+            <br><br><br>
+            <label class="título" for="Telefone">CPF</label>
+            <label class="título" id="input" for="Endereço">Data de Nascimento</label>
+            <br><br>
+            <input id="caixas" type="text" placeholder="111.111.111-11" required>
+            <input id="caixas" type="text" placeholder="DD/MM/AA" required>
+            <br><br><br>
+            <label class="título" for="Telefone">Endereço</label>
+            <label class="título" id="input" for="Endereço">CEP</label>
+            <br><br>
+            <input id="caixas" type="text" placeholder="Endereço" required>
+            <input id="caixas" type="text" placeholder="11111-111" required>
+            <br><br><br>
+            <label class="título" for="Telefone">Senha</label>
+            <label class="título" id="input" for="Endereço">Confirmar senha</label>
+            <br><br>
+            <input id="senha caixas" type="text" placeholder="Digite sua senha" required>
+            <input id="confirmar" caixas type="text" placeholder="Confirme sua senha" required>
+            <br><br>
+            <input id="caixas" type="checkbox" required>Aceito os termos de uso</input>
+    </div>
+    <div class="redirecionamento">
+        <button class="botão" type="submit" onclick="data()">CADASTRAR</button>
+        </form>
+    </div>
+    <script src="../scripts/2.js"></script>
+</body>
+
+</html>
