@@ -1,0 +1,67 @@
+body {
+    background-color: whitesmoke;
+}
+
+.cabeçalho {
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+}
+
+.menu button {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown a {
+    color: black;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu:hover .dropdown {
+    display: block;
+}
+
+.imagem {
+    margin-left: 31%;
+    margin-top: 4%;
+    overflow: hidden;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.animation {
+    animation: crescer 1s;
+}
+
+@keyframes crescer {
+    25% {
+        scale: 0%;
+    }
+
+    50% {
+        scale: 50%
+    }
+
+    75% {
+        scale: 100%;
+    }
+}

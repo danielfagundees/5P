@@ -1,0 +1,63 @@
+body {
+    background-color: whitesmoke;
+}
+
+.cabeçalho {
+    text-align: center;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.menu {
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+}
+
+.menu button {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: xx-large;
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown a {
+    color: black;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    margin-left: 3%;
+}
+
+.menu:hover .dropdown {
+    display: block;
+}
+
+#descrição {
+    height: 90px;
+    width: 344px;
+}
+
+.sucesso img {
+    width: 100px;
+    height: 100px;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.sucesso h1,
+h2 {
+    margin-left: 3%;
+    margin-top: 2%;
+}
